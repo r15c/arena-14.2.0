@@ -123,9 +123,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - ""
     resources:
@@ -140,8 +137,6 @@ rules:
       - pods/status
     verbs:
       - get
-      - update
-      - patch
   - apiGroups:
       - ""
     resources:
@@ -151,9 +146,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - ""
     resources:
@@ -163,9 +155,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - ""
     resources:
@@ -183,9 +172,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - ""
     resources:
@@ -195,9 +181,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - apps
     resources:
@@ -207,9 +190,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - admissionregistration.k8s.io
     resources:
@@ -220,9 +200,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - ""
     resources:
@@ -232,9 +209,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
   - apiGroups:
       - "apps.kubedl.io"
     resources:
@@ -245,9 +219,6 @@ rules:
       - list
       - watch
       - create
-      - update
-      - patch
-      - delete
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
